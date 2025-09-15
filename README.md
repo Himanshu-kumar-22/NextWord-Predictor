@@ -23,24 +23,26 @@ Files used:
 
 Clone this repository:
 
-```bash
-git clone https://github.com/<your-username>/<your-repo>.git
-cd <your-repo>
 
-Install dependencies:
-pip install -r requirements.txt
+- git clone https://github.com/<your-username>/<your-repo>.git
+- cd <your-repo>
 
-Run the Jupyter notebook:
-jupyter notebook nextword.ipynb
+### Install dependencies:
+- pip install -r requirements.txt
 
-📊 Performance
+### Run the Jupyter notebook:
+- jupyter notebook nextword.ipynb
+
+---
+
+## 📊 Performance
 	•	Training dataset size (sentences): ~35,000
 	•	Evaluation metric: Perplexity (standard for language modeling)
 	•	Test Perplexity: 114
 
-	![Performance Snapshot]('metrics.png')
+	![Performance Snapshot](metrics.png)
 
-📌 Future Improvements
+## 📌 Future Improvements
 	•	Add Transformer-based models (BERT/Transformer Decoder) for comparison
 	•	Hyperparameter tuning for better accuracy
 	•	Deploy as a web demo (Flask/Streamlit)
