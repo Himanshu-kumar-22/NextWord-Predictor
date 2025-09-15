@@ -40,7 +40,7 @@ Clone this repository:
 	•	Evaluation metric: Perplexity (standard for language modeling)
 	•	Test Perplexity: 114
 
-	![Performance Snapshot](metrics.png)
+![Performance Snapshot](metrics.png)
 
 ## 📌 Future Improvements
 	•	Add Transformer-based models (BERT/Transformer Decoder) for comparison
